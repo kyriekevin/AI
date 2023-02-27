@@ -13,7 +13,7 @@
 
 机器学习可以被定义为：**Improving some performance measure with experience computed from data.** 也就是机器从数据中总结经验，从数据中找出某种规律或者模型，并用它来解决实际问题。
 
-![](img\6bfe4b629d4641ce715c2f2abf8a015d.jpg)
+![](img/6bfe4b629d4641ce715c2f2abf8a015d.jpg)
 
 什么情况下会使用机器学习来解决问题呢？其实，目前机器学习的应用非常广泛，基本上任何场合都能够看到它的身影。其应用场合大致可归纳为三个条件：
 
@@ -23,7 +23,7 @@
 
 *   有大量的数据样本可供使用
 
-![](img\a592a711c257203636aa7cd6b10efcd7.jpg)
+![](img/a592a711c257203636aa7cd6b10efcd7.jpg)
 
 ## Applications of Machine Learning
 
@@ -39,11 +39,11 @@
 - 训练样本 ${data}$ 。
 - 假设 ${hypothesis}$ ，一个机器学习模型对应了很多不同的 ${hypothesis}$ ，通过演算法 ${A}$ ，选择一个最佳的 ${hypothesis}$ 对应的函数称为 ${g}$ ，${g}$ 能最好地表示事物的内在规律，也是我们最终想要得到的模型表达式。
 
-![](img\44da41b76a6ba9a827af7d7f41236640.jpg)
+![](img/44da41b76a6ba9a827af7d7f41236640.jpg)
 
 对于理想的目标函数 ${f}$ ，我们是不知道的，我们手上拿到的是一些训练样本 ${D}$ ，假设是监督式学习，其中有输入 ${x}$ ，也有输出 ${y}$ 。机器学习的过程，就是根据先验知识选择模型，该模型对应的 ${hypothesis\ set}$（用 ${H}$ 表示），${H}$ 中包含了许多不同的 ${hypothesis}$ ，通过演算法 ${A}$ ，在训练样本 ${D}$ 上进行训练，选择出一个最好的 ${hypothes}$ ，对应的函数表达式 ${g}$ 就是我们最终要求的。一般情况下， ${g}$ 能最接近目标函数 ${f}$ ，这样机器学习的整个流程就完成了。
 
-![](img\c4fa6c9095756476fa7259076381f958.jpg)
+![](img/c4fa6c9095756476fa7259076381f958.jpg)
 
 ## Machine Learning and Other Fields
 
