@@ -18,8 +18,10 @@ loss_list = []
 w = 1.0
 lr = 0.01
 
+
 def forward(x):
     return x * w
+
 
 def cost(xs, ys):
     cost = 0
@@ -29,12 +31,14 @@ def cost(xs, ys):
 
     return cost / len(xs)
 
+
 def gradient(xs, ys):
     grad = 0
     for x, y in zip(xs, ys):
         grad += 2 * x * (x * w - y)
 
     return grad / len(xs)
+
 
 print('Predict before training', 4, forward(4))
 for epoch in range(100):
@@ -50,5 +54,3 @@ plt.plot(epoch, loss_list)
 plt.xlabel('Epoch')
 plt.ylabel('Loss')
 plt.show()
-
-
